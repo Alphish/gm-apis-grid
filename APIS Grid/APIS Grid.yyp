@@ -9,7 +9,11 @@
     "name":"Default",
   },
   "defaultScriptType":1,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"_Packages","folderPath":"folders/_Packages.yy","name":"_Packages","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Alphish","folderPath":"folders/_Packages/Alphish.yy","name":"Alphish","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"APIS Grid","folderPath":"folders/_Packages/Alphish/APIS Grid.yy","name":"APIS Grid","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -20,6 +24,8 @@
   "name":"APIS Grid",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"ctor_ApisGrid","path":"scripts/ctor_ApisGrid/ctor_ApisGrid.yy",},},
+    {"id":{"name":"ctor_ApisGridCell","path":"scripts/ctor_ApisGridCell/ctor_ApisGridCell.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
