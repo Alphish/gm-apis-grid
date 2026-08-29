@@ -13,6 +13,7 @@
     {"$GMFolder":"","%Name":"_Packages","folderPath":"folders/_Packages.yy","name":"_Packages","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Alphish","folderPath":"folders/_Packages/Alphish.yy","name":"Alphish","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"APIS Grid","folderPath":"folders/_Packages/Alphish/APIS Grid.yy","name":"APIS Grid","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Demo","folderPath":"folders/Demo.yy","name":"Demo","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
@@ -23,14 +24,18 @@
   },
   "name":"APIS Grid",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"ctrl_DemoGrid","path":"objects/ctrl_DemoGrid/ctrl_DemoGrid.yy",},},
+    {"id":{"name":"rm_Demo","path":"rooms/rm_Demo/rm_Demo.yy",},},
     {"id":{"name":"ctor_ApisGrid","path":"scripts/ctor_ApisGrid/ctor_ApisGrid.yy",},},
     {"id":{"name":"ctor_ApisGridCell","path":"scripts/ctor_ApisGridCell/ctor_ApisGridCell.yy",},},
+    {"id":{"name":"ctor_DrawCell","path":"scripts/ctor_DrawCell/ctor_DrawCell.yy",},},
+    {"id":{"name":"ctor_DrawGrid","path":"scripts/ctor_DrawGrid/ctor_DrawGrid.yy",},},
+    {"id":{"name":"spr_DemoCellSprite","path":"sprites/spr_DemoCellSprite/spr_DemoCellSprite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_Demo","path":"rooms/rm_Demo/rm_Demo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
